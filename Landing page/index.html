@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy-Drink</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just drink,<br>It's <span>Enery Drink</span></h2>
+                <p>
+                    SurgeX Energy is your go-to source for unstoppable energy and focus. Crafted with premium ingredients and a commitment to excellence, our energy drink delivers sustained vitality without the crash. 
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/drink.jpg" class="drinkimg">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="images/drink.jpg" onclick="imgSlider('./images/drink.jpg');changeCircleColor(' #FFA500')"></li>
+            <li><img src="images/drink2.jpg" onclick="imgSlider('./images/drink2.jpg');changeCircleColor('#000000')">
+            </li>
+            <li><img src="images/drink3.jpeg"
+                    onclick="imgSlider('./images/drink3.jpeg');changeCircleColor('#808080')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+        </ul>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
